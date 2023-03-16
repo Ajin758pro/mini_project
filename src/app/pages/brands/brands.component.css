@@ -3,3 +3,11 @@
     font-family: 'Times New Roman', Times, serif;
     color: #5a3838;
   }
+
+  #bg{
+     background-image: url('C:\Users\LEGION\Desktop\ajinj\watch_store\src\assets\images\gold.jpg');
+      -webkit-background-clip:text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 50px;
+      font-size: 4vw;
+  }

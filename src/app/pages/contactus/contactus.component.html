@@ -1,4 +1,4 @@
-  <section class="vh-100" style="background-color: #f1f1f1f6;" id="bg">
+  <!-- <section class="vh-100" style="background-color: #f1f1f1f6;" id="bg">
         <div class="container py-5 h-100" >
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col col-xl-10">
@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
 
      
@@ -102,3 +102,32 @@
      </section> -->
 
 
+
+
+     <div class="container" style="margin-bottom: 30px;margin-top: 30px;">
+      <h1 style="font-size: 3vw;font-family: 'Times New Roman', Times, serif;color: #5a3838;"><b>CONTACT US</b></h1>
+      <form action="action_page.php" #f="ngForm" (ngSubmit)="addData(f)" >
+      <br>
+        <label for="fname" style="font-family: 'Times New Roman', Times, serif;color: #5a3838;font-size: large;"><b>First Name</b></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."ngModel >
+    
+        <label for="lname" style="font-family: 'Times New Roman', Times, serif;color: #5a3838;font-size: large;"><b>Last Name</b></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." ngModel>
+
+        <label for="email" style="font-family: 'Times New Roman', Times, serif;color: #5a3838;font-size: large;"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" ngModel >
+    
+        <!-- <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select> -->
+    
+        <label for="subject" style="font-family: 'Times New Roman', Times, serif;color: #5a3838;font-size: large;"><b>Subject</b></label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" ngModel></textarea>
+    
+        <input type="submit" (click)="submit()" value="Submit" style="background-color: #5a3838;font-family: 'Times New Roman', Times, serif;" >
+    
+      </form>
+    </div>
