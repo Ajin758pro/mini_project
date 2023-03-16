@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "watch-store-pro": {
+      "hosting": {
+        "watch_store": [
+          "watch-store-pro"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "watch-store-pro"
+  }
+}

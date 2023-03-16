@@ -1,0 +1,28 @@
+#hm{
+    margin-left: 50px;  
+    font-size:larger;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5e2e2e;
+   }
+
+    
+
+   .lgo{
+   margin-left: 20px;
+    border: #04AA6D;
+    border-radius:50%;
+}
+#art{
+    color: #5e2e2e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font: weight 300px;
+    margin-left:10px;
+   margin-right:200px; 
+}
+a:hover{
+    background-color: rgb(229, 234, 233);
+    border-radius: 8px;
+}
+
+  

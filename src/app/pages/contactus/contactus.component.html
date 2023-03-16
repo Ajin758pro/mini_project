@@ -1,0 +1,104 @@
+  <section class="vh-100" style="background-color: #f1f1f1f6;" id="bg">
+        <div class="container py-5 h-100" >
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+              <div class="card" style="border-radius: 1rem;">
+                <div class="row g-0">
+                  <div  class="col-md-6 col-lg-5 d-none d-md-block" style="margin-top: 150px;padding-left: 45px;">
+                    <img  src=" assets\images\contactimg.jpg"alt="login form" class="img-fluid" height="" width="">
+                  </div>
+                  <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                    <div class="card-body p-4 p-lg-5 text-black">
+      
+                      <form #f="ngForm" (ngSubmit)="addData(f)" > 
+      
+                        <div class="d-flex align-items-center mb-3 pb-1">
+                          <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                          <span id="font" class="h1 fw-bold mb-0">CONTACT US</span>
+                        </div>
+      
+                        <h5 id="font" class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;"></h5>
+      
+                        <div class="form-outline mb-4" style="font-family: 'Times New Roman', Times, serif;color: #5a3838;">
+                          <label id="font" class="form-label" for="">Name</label>
+                           <input type="text" id="" class="form-control form-control-lg" ngModel/>
+                        </div>
+      
+      
+      
+                        <div class="form-outline mb-4" style="font-family: 'Times New Roman', Times, serif;color: #5a3838;">
+                          <label id="font" class="form-label" for="form2Example17">Email address</label>
+                           <input type="email" id="form2Example17" class="form-control form-control-lg" ngModel />
+
+                        </div>
+
+
+
+                        <div style="font-family: 'Times New Roman', Times, serif;color: #5a3838;">
+                          
+                          <label for="subject">Subject</label>
+                           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" ngModel></textarea> 
+                          
+                      </div>
+
+                        <div class="pt-1 mb-4">
+                          <button (click)="submit()" id="bt" class="btn btn-dark btn-lg btn-block"  style="background-color: #5a3838;" type="button" >Submit</button>
+                        </div>
+
+                      </form>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+     
+ 
+ 
+ 
+     <!-- <section id="contact">
+       <div class="container">
+         <div class="well well-sm">
+           <h3><strong>Contact Us</strong></h3>
+         </div>
+       
+       <div class="row">
+         <div class="col-md-7">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251482.70982212533!2d76.16084706552728!3d9.982342763304219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1678204697499!5m2!1sen!2sin" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+     
+
+           <div class="col-md-5">
+               <h4><strong>Get in Touch</strong></h4>
+             <form #f="ngForm" (ngSubmit)="addData(f)"> 
+  \
+               <div class="form-group">
+                 <input type="text" class="form-control" name="name" value="" placeholder="Name" ngModel>
+               </div>
+               <div class="form-group">
+                 <input type="email" class="form-control" name="email" value="" placeholder="E-mail" ngModel>
+               </div>
+               <div class="form-group">
+                 <input type="tel" class="form-control" name="phone" value="" placeholder="Phone" ngModel>
+               </div>
+               <div class="form-group">
+                 <textarea class="form-control" name="message"  rows="3" placeholder="Message" ngModel></textarea>
+               </div>
+               <button class="btn btn-default" type="submit" name="button"  (click)="submit()">
+                   <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
+               </button>
+             </form>
+           </div>
+
+
+
+         </div>
+       </div>
+     </section> -->
+
+
